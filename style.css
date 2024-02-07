@@ -1,0 +1,84 @@
+body {
+   font-family: 'Great Vibes';
+   background-image: url('src/back.jpg');
+   text-align: center;
+   padding-top: 50px;
+   backdrop-filter: blur(1px)
+}
+
+.valentine-container {
+   margin: auto;
+   width: 80%;
+   max-width: 600px;
+}
+
+h1 {
+   color: #a10030;
+   font-size: 50px;
+}
+
+img {
+   width: 120px;
+   height: 120px;
+}
+
+#reveal-button {
+   border: none;
+   font-size: 60px;
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0);
+   transition: 0.3s ease;
+}
+
+#reveal-button:hover {
+   transform: scale(1.2);
+}
+
+#secret-message {
+   margin-top: 20px;
+   padding: 20px;
+}
+
+#end-message {
+   margin-top: 20px;
+   padding: 20px;
+}
+
+#accept {
+   background-color: #a10030;
+   border: none;
+   border-radius: 25%;
+   padding: 10px;
+   font-size: 24px;
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   margin-right: 7px;
+}
+
+#accept:hover {
+   transform: scale(1.05);
+}
+
+#reject {
+   background-color: white;
+   border: none;
+   border-radius: 25%;
+   padding: 10px;
+   font-size: 24px;
+   color: #a10030;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+#reject:hover {
+   transform: scale(1.05);
+}
+
+p {
+   font-size: 25px;
+}
+
+button {
+   font-family: 'Great Vibes';
+}
